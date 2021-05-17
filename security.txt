@@ -1,0 +1,4 @@
+Contact: bootcamp@microtrain.net
+Acknowledgments: https://microtrain2101.github.io/thanks.html
+Preferred-Languages: en
+Canonical: https://microtrain2105.github.io/security.txt
