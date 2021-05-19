@@ -3,17 +3,41 @@
       
     <head>
       <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>MicroTrain2105 Contact</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
+     <title>MicroTrain2105 Contact</title>
     </head>
-    <nav>
+    <header>
+      <span class="logo">MicroTrain2105</span>
+      <a id="toggleMenu">Menu<a>
+      <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-    </nav>
-    <body>
+      </nav>
+    </header>
+  <body>
+  <main>
+
 <h1>Thank you for contacting MicroTrain2105</h1>
-    </body>
+  </main>
+  <script>
+
+    var toggleMenu = document.getElementById('toggleMenu');
+    var nav = document.querySelector('nav');
+    toggleMenu.addEventListener(
+      'click',
+      function(){
+        if(nav.style.display=='block'){
+          nav.style.display='none';
+        }else{
+          nav.style.display='block';
+        }
+      }
+    );
+  </script>
+</body>
+
 </html>
